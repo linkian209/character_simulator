@@ -5,8 +5,10 @@ import argparse
 import csv
 import json
 import re
+import time
 from openpyxl import load_workbook
 from pandas import DataFrame
+from src import classes, util
 
 
 def import_race_data(file_path):
@@ -160,7 +162,20 @@ def run_mode(args):
     Arguments:
         :param args: (dict) A dictionary containing the needed arguments
     '''
-    pass
+    char = classes.Character(
+        "Human", None, ['Str','Dex','Con','Int','Wis','Cha'], 
+        classes.StatSelection.ROLL_4D6_DROP_ONE, classes.HPSelection.ROLL_HP,
+        classes.ASISelection.STRICT_FOCUS
+    )
+    print(char.id)
+    print(char.stats)
+    char = classes.Character(
+        "Human", "Variant", ['Str','Dex','Con','Int','Wis','Cha'], 
+        classes.StatSelection.ROLL_3D6, classes.HPSelection.ROLL_HP,
+        classes.ASISelection.FOCUS_ODD_TO_EVEN
+    )
+    print(char.id)
+    print(char.stats)
 
 
 if __name__ == "__main__":

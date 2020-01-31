@@ -1,0 +1,1652 @@
+{
+  "Barbarian": {
+    "LevelTable": {
+      "Headers": [
+        "Level",
+        "Proficiency Bonus",
+        "Rages",
+        "Rage Damage",
+        "Features"
+      ],
+      "Levels": {
+        "1": {
+          "Level": "1",
+          "Proficiency Bonus": "+2",
+          "Rages": "2",
+          "Rage Damage": "+2",
+          "Features": [
+            "Rage",
+            "Unarmored Defense"
+          ]
+        },
+        "2": {
+          "Level": "2",
+          "Proficiency Bonus": "+2",
+          "Rages": "2",
+          "Rage Damage": "+2",
+          "Features": [
+            "Reckless Attack",
+            "Danger Sense"
+          ]
+        },
+        "3": {
+          "Level": "3",
+          "Proficiency Bonus": "+2",
+          "Rages": "3",
+          "Rage Damage": "+2",
+          "Features": [
+            "Primal Path"
+          ]
+        },
+        "4": {
+          "Level": "4",
+          "Proficiency Bonus": "+2",
+          "Rages": "3",
+          "Rage Damage": "+2",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "5": {
+          "Level": "5",
+          "Proficiency Bonus": "+3",
+          "Rages": "3",
+          "Rage Damage": "+2",
+          "Features": [
+            "Extra Attack",
+            "Fast Movement"
+          ]
+        },
+        "6": {
+          "Level": "6",
+          "Proficiency Bonus": "+3",
+          "Rages": "4",
+          "Rage Damage": "+2",
+          "Features": [
+            "Path feature"
+          ]
+        },
+        "7": {
+          "Level": "7",
+          "Proficiency Bonus": "+3",
+          "Rages": "4",
+          "Rage Damage": "+2",
+          "Features": [
+            "Feral Instinct"
+          ]
+        },
+        "8": {
+          "Level": "8",
+          "Proficiency Bonus": "+3",
+          "Rages": "4",
+          "Rage Damage": "+2",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "9": {
+          "Level": "9",
+          "Proficiency Bonus": "+4",
+          "Rages": "4",
+          "Rage Damage": "+3",
+          "Features": [
+            "Brutal Critical (1 die)"
+          ]
+        },
+        "10": {
+          "Level": "10",
+          "Proficiency Bonus": "+4",
+          "Rages": "4",
+          "Rage Damage": "+3",
+          "Features": [
+            "Path feature"
+          ]
+        },
+        "11": {
+          "Level": "11",
+          "Proficiency Bonus": "+4",
+          "Rages": "4",
+          "Rage Damage": "+3",
+          "Features": [
+            "Relentless"
+          ]
+        },
+        "12": {
+          "Level": "12",
+          "Proficiency Bonus": "+4",
+          "Rages": "5",
+          "Rage Damage": "+3",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "13": {
+          "Level": "13",
+          "Proficiency Bonus": "+5",
+          "Rages": "5",
+          "Rage Damage": "+3",
+          "Features": [
+            "Brutal Critical (2 dice)"
+          ]
+        },
+        "14": {
+          "Level": "14",
+          "Proficiency Bonus": "+5",
+          "Rages": "5",
+          "Rage Damage": "+3",
+          "Features": [
+            "Path Feature"
+          ]
+        },
+        "15": {
+          "Level": "15",
+          "Proficiency Bonus": "+5",
+          "Rages": "5",
+          "Rage Damage": "+3",
+          "Features": [
+            "Persistent Rage"
+          ]
+        },
+        "16": {
+          "Level": "16",
+          "Proficiency Bonus": "+5",
+          "Rages": "5",
+          "Rage Damage": "+4",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "17": {
+          "Level": "17",
+          "Proficiency Bonus": "+6",
+          "Rages": "6",
+          "Rage Damage": "+4",
+          "Features": [
+            "Brutal Critical (3 dice)"
+          ]
+        },
+        "18": {
+          "Level": "18",
+          "Proficiency Bonus": "+6",
+          "Rages": "6",
+          "Rage Damage": "+4",
+          "Features": [
+            "Indomitable Might"
+          ]
+        },
+        "19": {
+          "Level": "19",
+          "Proficiency Bonus": "+6",
+          "Rages": "6",
+          "Rage Damage": "+4",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "20": {
+          "Level": "20",
+          "Proficiency Bonus": "+6",
+          "Rages": "Unlimited",
+          "Rage Damage": "+4",
+          "Features": [
+            "Primal Champion"
+          ]
+        }
+      }
+    },
+    "HitDice": "d12",
+    "HitDiceValue": 12,
+    "HitDiceAvg": 7,
+    "Proficiencies": {
+      "Armor": [
+        "Light armor",
+        "Medium armor",
+        "Shields"
+      ],
+      "Tools": [],
+      "SavingThrows": [
+        "Str",
+        "Con"
+      ],
+      "SkillOpts": [
+        "Animal Handling",
+        "Athletics",
+        "Intimidation",
+        "Nature",
+        "Perception",
+        "Survival"
+      ],
+      "NumSkillOpts": 2
+    }
+  },
+  "Bard": {
+    "LevelTable": {
+      "Headers": [
+        "Level",
+        "Proficiency Bonus",
+        "Features"
+      ],
+      "Levels": {
+        "1": {
+          "Level": "1",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Spellcasting",
+            "Bardic Inspiration (d6)"
+          ]
+        },
+        "2": {
+          "Level": "2",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Jack of All Trades",
+            "Song of Rest (d6)"
+          ]
+        },
+        "3": {
+          "Level": "3",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Bard College",
+            "Expertise"
+          ]
+        },
+        "4": {
+          "Level": "4",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "5": {
+          "Level": "5",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Bardic Inspiration (d8)",
+            "Font of Inspiration"
+          ]
+        },
+        "6": {
+          "Level": "6",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Countercharm",
+            "Bard College feature"
+          ]
+        },
+        "7": {
+          "Level": "7",
+          "Proficiency Bonus": "+3",
+          "Features": []
+        },
+        "8": {
+          "Level": "8",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "9": {
+          "Level": "9",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Song of Rest (d8)"
+          ]
+        },
+        "10": {
+          "Level": "10",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Bardic Inspiration (d10)",
+            "Expertise",
+            "Magical Secrets"
+          ]
+        },
+        "11": {
+          "Level": "11",
+          "Proficiency Bonus": "+4",
+          "Features": []
+        },
+        "12": {
+          "Level": "12",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "13": {
+          "Level": "13",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Song of Rest (d10)"
+          ]
+        },
+        "14": {
+          "Level": "14",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Magical Secrets",
+            "Bard College feature"
+          ]
+        },
+        "15": {
+          "Level": "15",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Bardic Inspiration (d12)"
+          ]
+        },
+        "16": {
+          "Level": "16",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "17": {
+          "Level": "17",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Song of Rest (d12)"
+          ]
+        },
+        "18": {
+          "Level": "18",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Magical Secrets"
+          ]
+        },
+        "19": {
+          "Level": "19",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "20": {
+          "Level": "20",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Superior Inspiration"
+          ]
+        }
+      }
+    },
+    "SpellCasting": {
+      "SpellsKnown": {
+        "1": 4,
+        "2": 5,
+        "3": 6,
+        "4": 7,
+        "5": 8,
+        "6": 9,
+        "7": 10,
+        "8": 11,
+        "9": 12,
+        "10": 14,
+        "11": 15,
+        "12": 15,
+        "13": 16,
+        "14": 18,
+        "15": 19,
+        "16": 19,
+        "17": 20,
+        "18": 22,
+        "19": 22,
+        "20": 22
+      },
+      "CantripsKnown": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 3,
+        "8": 3,
+        "9": 3,
+        "10": 4,
+        "11": 4,
+        "12": 4,
+        "13": 4,
+        "14": 4,
+        "15": 4,
+        "16": 4,
+        "17": 4,
+        "18": 4,
+        "19": 4,
+        "20": 4
+      },
+      "SpellSlots": {
+        "1": {
+          "1st": 2,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "2": {
+          "1st": 3,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "3": {
+          "1st": 4,
+          "2nd": 2,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "4": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "5": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 2,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "6": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "7": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 1,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "8": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 2,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "9": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 1,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "10": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "11": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "12": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "13": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 0,
+          "9th": 0
+        },
+        "14": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 0,
+          "9th": 0
+        },
+        "15": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 1,
+          "9th": 0
+        },
+        "16": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 1,
+          "9th": 0
+        },
+        "17": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 1,
+          "9th": 1
+        },
+        "18": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 3,
+          "6th": 1,
+          "7th": 1,
+          "8th": 1,
+          "9th": 1
+        },
+        "19": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 3,
+          "6th": 2,
+          "7th": 1,
+          "8th": 1,
+          "9th": 1
+        },
+        "20": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 3,
+          "6th": 2,
+          "7th": 2,
+          "8th": 1,
+          "9th": 1
+        }
+      },
+      "CastingAbility": "Cha"
+    },
+    "HitDice": "d8",
+    "HitDiceValue": 8,
+    "HitDiceAvg": 5,
+    "Proficiencies": {
+      "Armor": [
+        "Light Armor"
+      ],
+      "Weapons": [
+        "Simple weapons",
+        "Hand crossbows",
+        "Longswords",
+        "Rapiers",
+        "Shortswords"
+      ],
+      "Tools": [
+        "Three Musical Instruments of your choice"
+      ],
+      "SavingThrows": [
+        "Dex",
+        "Cha"
+      ],
+      "SkillOpts": [
+        "Athletics",
+        "Acrobatics",
+        "Sleight of Hand",
+        "Stealth",
+        "Arcana",
+        "History",
+        "Investigation",
+        "Nature",
+        "Religion",
+        "Animal Handling",
+        "Insight",
+        "Medicine",
+        "Perception",
+        "Perception",
+        "Survival",
+        "Deception",
+        "Intimidation",
+        "Performance",
+        "Persuasion"
+      ],
+      "NumSkillOpts": 3
+    }
+  },
+  "Fighter": {
+    "LevelTable": {
+      "Headers": [
+        "Level",
+        "Proficiency Bonus",
+        "Features"
+      ],
+      "Levels": {
+        "1": {
+          "Level": "1",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Fighting Style",
+            "Second Wind"
+          ]
+        },
+        "2": {
+          "Level": "2",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Action Surge (one use)"
+          ]
+        },
+        "3": {
+          "Level": "3",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Martial Archetype"
+          ]
+        },
+        "4": {
+          "Level": "4",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "5": {
+          "Level": "5",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Extra Attack"
+          ]
+        },
+        "6": {
+          "Level": "6",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "7": {
+          "Level": "7",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Martial Archetype feature"
+          ]
+        },
+        "8": {
+          "Level": "8",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "9": {
+          "Level": "9",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Indomitable (one use)"
+          ]
+        },
+        "10": {
+          "Level": "10",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Martial Archetype feature"
+          ]
+        },
+        "11": {
+          "Level": "11",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Extra Attack (2)"
+          ]
+        },
+        "12": {
+          "Level": "12",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "13": {
+          "Level": "13",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Indomitable (two uses)"
+          ]
+        },
+        "14": {
+          "Level": "14",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "15": {
+          "Level": "15",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Martial Archetype feature"
+          ]
+        },
+        "16": {
+          "Level": "16",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "17": {
+          "Level": "17",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Action Surge (two uses)",
+            "Indomitable (three uses)"
+          ]
+        },
+        "18": {
+          "Level": "18",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Martial Archetype Feature"
+          ]
+        },
+        "19": {
+          "Level": "19",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "20": {
+          "Level": "20",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Extra Attack (3)"
+          ]
+        }
+      }
+    },
+    "HitDice": "d10",
+    "HitDiceValue": 10,
+    "HitDiceAvg": 6,
+    "Proficiencies": {
+      "Armor": [
+        "All armor",
+        "Shields"
+      ],
+      "Weapons": [
+        "Simple weapons",
+        "Martial weapons"
+      ],
+      "Tools": [],
+      "SavingThrows": [
+        "Str",
+        "Con"
+      ],
+      "SkillOpts": [
+        "Acrobatics",
+        "Animal Handling",
+        "Athletics",
+        "History",
+        "Insight",
+        "Intimidation",
+        "Perception",
+        "Survival"
+      ],
+      "NumSkillOpts": 2
+    }
+  },
+  "Paladin": {
+    "LevelTable": {
+      "Headers": [
+        "Level",
+        "Proficiency Bonus",
+        "Features"
+      ],
+      "Levels": {
+        "1": {
+          "Level": "1",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Divine Sense",
+            "Lay on Hands"
+          ]
+        },
+        "2": {
+          "Level": "2",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Fighting Style",
+            "Spellcasting",
+            "Divine Smite"
+          ]
+        },
+        "3": {
+          "Level": "3",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Divine Health",
+            "Sacred Oath"
+          ]
+        },
+        "4": {
+          "Level": "4",
+          "Proficiency Bonus": "+2",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "5": {
+          "Level": "5",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Extra Attack"
+          ]
+        },
+        "6": {
+          "Level": "6",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Aura of Protection"
+          ]
+        },
+        "7": {
+          "Level": "7",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Sacred Oath feature"
+          ]
+        },
+        "8": {
+          "Level": "8",
+          "Proficiency Bonus": "+3",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "9": {
+          "Level": "9",
+          "Proficiency Bonus": "+4",
+          "Features": []
+        },
+        "10": {
+          "Level": "10",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Aura of Courage"
+          ]
+        },
+        "11": {
+          "Level": "11",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Improved Divine Smite"
+          ]
+        },
+        "12": {
+          "Level": "12",
+          "Proficiency Bonus": "+4",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "13": {
+          "Level": "13",
+          "Proficiency Bonus": "+5",
+          "Features": []
+        },
+        "14": {
+          "Level": "14",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Cleansing Touch"
+          ]
+        },
+        "15": {
+          "Level": "15",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Sacred Oath feature"
+          ]
+        },
+        "16": {
+          "Level": "16",
+          "Proficiency Bonus": "+5",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "17": {
+          "Level": "17",
+          "Proficiency Bonus": "+6",
+          "Features": []
+        },
+        "18": {
+          "Level": "18",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Aura improvements"
+          ]
+        },
+        "19": {
+          "Level": "19",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "20": {
+          "Level": "20",
+          "Proficiency Bonus": "+6",
+          "Features": [
+            "Sacred Oath feature"
+          ]
+        }
+      }
+    },
+    "SpellCasting": {
+      "SpellsKnown": {},
+      "CantripsKnown": {},
+      "SpellSlots": {
+        "1": {
+          "1st": 0,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0
+        },
+        "2": {
+          "1st": 2,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0
+        },
+        "3": {
+          "1st": 3,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0
+        },
+        "4": {
+          "1st": 3,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0
+        },
+        "5": {
+          "1st": 4,
+          "2nd": 2,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0
+        },
+        "6": {
+          "1st": 4,
+          "2nd": 2,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0
+        },
+        "7": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0
+        },
+        "8": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0
+        },
+        "9": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 2,
+          "4th": 0,
+          "5th": 0
+        },
+        "10": {
+          "1st": 4,
+          "2nd": 4,
+          "3rd": 3,
+          "4th": 2,
+          "5th": 0
+        },
+        "11": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 0,
+          "5th": 0
+        },
+        "12": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 0,
+          "5th": 0
+        },
+        "13": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 1,
+          "5th": 0
+        },
+        "14": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 1,
+          "5th": 0
+        },
+        "15": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 2,
+          "5th": 0
+        },
+        "16": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 2,
+          "5th": 0
+        },
+        "17": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 1
+        },
+        "18": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 1
+        },
+        "19": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2
+        },
+        "20": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2
+        }
+      },
+      "CastingAbility": "Cha"
+    },
+    "HitDice": "d10",
+    "HitDiceValue": 10,
+    "HitDiceAvg": 6,
+    "Proficiencies": {
+      "Armor": [
+        "All armor",
+        "Shields"
+      ],
+      "Weapons": [
+        "Simple weapons",
+        "Martial weapons"
+      ],
+      "Tools": [],
+      "SavingThrows": [
+        "Wis",
+        "Cha"
+      ],
+      "SkillOpts": [
+        "Athletics",
+        "Insight",
+        "Intimidation",
+        "Medicine",
+        "Persuasion",
+        "Religion"
+      ],
+      "NumSkillOpts": 2
+    }
+  },
+  "Sorcerer": {
+    "LevelTable": {
+      "Headers": [
+        "Level",
+        "Proficiency Bonus",
+        "Sorcery Points",
+        "Features"
+      ],
+      "Levels": {
+        "1": {
+          "Level": "1",
+          "Proficiency Bonus": "+2",
+          "Sorcery Points": "0",
+          "Features": [
+            "Spellcasting",
+            "Sorcerous Origin"
+          ]
+        },
+        "2": {
+          "Level": "2",
+          "Proficiency Bonus": "+2",
+          "Sorcery Points": "2",
+          "Features": [
+            "Font of Magic"
+          ]
+        },
+        "3": {
+          "Level": "3",
+          "Proficiency Bonus": "+2",
+          "Sorcery Points": "3",
+          "Features": [
+            "Metamagic"
+          ]
+        },
+        "4": {
+          "Level": "4",
+          "Proficiency Bonus": "+2",
+          "Sorcery Points": "4",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "5": {
+          "Level": "5",
+          "Proficiency Bonus": "+3",
+          "Sorcery Points": "5",
+          "Features": []
+        },
+        "6": {
+          "Level": "6",
+          "Proficiency Bonus": "+3",
+          "Sorcery Points": "6",
+          "Features": [
+            "Sorcerous Origin feature"
+          ]
+        },
+        "7": {
+          "Level": "7",
+          "Proficiency Bonus": "+3",
+          "Sorcery Points": "7",
+          "Features": []
+        },
+        "8": {
+          "Level": "8",
+          "Proficiency Bonus": "+3",
+          "Sorcery Points": "8",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "9": {
+          "Level": "9",
+          "Proficiency Bonus": "+4",
+          "Sorcery Points": "9",
+          "Features": []
+        },
+        "10": {
+          "Level": "10",
+          "Proficiency Bonus": "+4",
+          "Sorcery Points": "10",
+          "Features": [
+            "Metamagic"
+          ]
+        },
+        "11": {
+          "Level": "11",
+          "Proficiency Bonus": "+4",
+          "Sorcery Points": "11",
+          "Features": []
+        },
+        "12": {
+          "Level": "12",
+          "Proficiency Bonus": "+4",
+          "Sorcery Points": "12",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "13": {
+          "Level": "13",
+          "Proficiency Bonus": "+5",
+          "Sorcery Points": "13",
+          "Features": []
+        },
+        "14": {
+          "Level": "14",
+          "Proficiency Bonus": "+5",
+          "Sorcery Points": "14",
+          "Features": [
+            "Sorcerous Origin feature"
+          ]
+        },
+        "15": {
+          "Level": "15",
+          "Proficiency Bonus": "+5",
+          "Sorcery Points": "15",
+          "Features": []
+        },
+        "16": {
+          "Level": "16",
+          "Proficiency Bonus": "+5",
+          "Sorcery Points": "16",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "17": {
+          "Level": "17",
+          "Proficiency Bonus": "+6",
+          "Sorcery Points": "17",
+          "Features": [
+            "Metamagic"
+          ]
+        },
+        "18": {
+          "Level": "18",
+          "Proficiency Bonus": "+6",
+          "Sorcery Points": "18",
+          "Features": [
+            "Sorcerous Origin feature"
+          ]
+        },
+        "19": {
+          "Level": "19",
+          "Proficiency Bonus": "+6",
+          "Sorcery Points": "19",
+          "Features": [
+            "Ability Score Improvement"
+          ]
+        },
+        "20": {
+          "Level": "20",
+          "Proficiency Bonus": "+6",
+          "Sorcery Points": "20",
+          "Features": [
+            "Sorcerous Restoration"
+          ]
+        }
+      }
+    },
+    "SpellCasting": {
+      "SpellsKnown": {
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9,
+        "9": 10,
+        "10": 11,
+        "11": 12,
+        "12": 12,
+        "13": 13,
+        "14": 13,
+        "15": 14,
+        "16": 14,
+        "17": 15,
+        "18": 15,
+        "19": 15,
+        "20": 15
+      },
+      "CantripsKnown": {
+        "1": 4,
+        "2": 4,
+        "3": 4,
+        "4": 5,
+        "5": 5,
+        "6": 5,
+        "7": 5,
+        "8": 5,
+        "9": 5,
+        "10": 6,
+        "11": 6,
+        "12": 6,
+        "13": 6,
+        "14": 6,
+        "15": 6,
+        "16": 6,
+        "17": 6,
+        "18": 6,
+        "19": 6,
+        "20": 6
+      },
+      "SpellSlots": {
+        "1": {
+          "1st": 2,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "2": {
+          "1st": 3,
+          "2nd": 0,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "3": {
+          "1st": 4,
+          "2nd": 2,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "4": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 0,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "5": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 2,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "6": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 0,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "7": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 1,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "8": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 2,
+          "5th": 0,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "9": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 1,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "10": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 0,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "11": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "12": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 0,
+          "8th": 0,
+          "9th": 0
+        },
+        "13": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 0,
+          "9th": 0
+        },
+        "14": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 0,
+          "9th": 0
+        },
+        "15": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 1,
+          "9th": 0
+        },
+        "16": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 1,
+          "9th": 0
+        },
+        "17": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 2,
+          "6th": 1,
+          "7th": 1,
+          "8th": 1,
+          "9th": 1
+        },
+        "18": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 3,
+          "6th": 1,
+          "7th": 1,
+          "8th": 1,
+          "9th": 1
+        },
+        "19": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 3,
+          "6th": 2,
+          "7th": 1,
+          "8th": 1,
+          "9th": 1
+        },
+        "20": {
+          "1st": 4,
+          "2nd": 3,
+          "3rd": 3,
+          "4th": 3,
+          "5th": 3,
+          "6th": 2,
+          "7th": 2,
+          "8th": 1,
+          "9th": 1
+        }
+      },
+      "CastingAbility": "Cha"
+    },
+    "HitDice": "d6",
+    "HitDiceValue": 6,
+    "HitDiceAvg": 4,
+    "Proficiencies": {
+      "Armor": [],
+      "Weapons": [
+        "Daggers",
+        "Darts",
+        "Slings",
+        "Quarterstaffs",
+        "Light crossbows"
+      ],
+      "Tools": [],
+      "SavingThrows": [
+        "Con",
+        "Cha"
+      ],
+      "SkillOpts": [
+        "Arcana",
+        "Deception",
+        "Insight",
+        "Intimidation",
+        "Persuasion",
+        "Religion"
+      ],
+      "NumSkillOpts": 2
+    }
+  }
+}

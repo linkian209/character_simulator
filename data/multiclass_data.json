@@ -3,64 +3,99 @@
     "AbilityScoreMin": {
       "Stats": {
         "Stat": "Str",
-        "Score": "13"
+        "Score": 13
       }
     },
-    "ProfGained": "Shields, simple weapons, martial weapons"
+    "ProfGained": {
+      "Armor":["Shields"], 
+      "Weapons":["Simple weapons", "Martial weapons"],
+      "Tools": [],
+      "SavingThrows": [],
+      "SkillOpts": [],
+      "NumSkillOpts": 0
+    }
   },
   "Bard": {
     "AbilityScoreMin": {
       "Stats": {
         "Stat": "Cha",
-        "Score": "13"
+        "Score": 13
       }
     },
-    "ProfGained": "Light armor, one skill of your choice, one musical instrument of your choice"
+    "ProfGained": {
+      "Armor": ["Light armor"], 
+      "Weapons": [],
+      "Tools": ["One musical instrument of your choice"],
+      "SavingThrows": [],
+      "SkillOpts": ["Athletics","Acrobatics","Sleight of Hand","Stealth","Arcana","History","Investigation","Nature","Religion","Animal Handling","Insight","Medicine","Perception","Perception","Survival","Deception","Intimidation","Performance","Persuasion"],
+      "NumSkillOpts": 1
+    }
   },
   "Cleric": {
     "AbilityScoreMin": {
       "Stats": {
         "Stat": "Wis",
-        "Score": "13"
+        "Score": 13
       }
     },
-    "ProfGained": "Light armor, medium armor, shields"
+    "ProfGained": {
+      "Armor": ["Light armor", "Medium armor", "Shields"], 
+      "Weapons": [],
+      "Tools": [],
+      "SavingThrows": [],
+      "SkillOpts": [],
+      "NumSkillOpts": 0
+    }
   },
   "Druid": {
     "AbilityScoreMin": {
       "Stats": {
         "Stat": "Wis",
-        "Score": "13"
+        "Score": 13
       }
     },
-    "ProfGained": "Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)"
+    "ProfGained": {
+      "Armor": ["Light armor", "Medium armor", "Shields","(druids will not wear armor or use shields made of metal)"], 
+      "Weapons": [],
+      "Tools": [],
+      "SavingThrows": [],
+      "SkillOpts": [],
+      "NumSkillOpts": 0
+    }
   },
   "Fighter": {
     "AbilityScoreMin": {
       "Stats": [
         {
           "Stat": "Str",
-          "Score": "13"
+          "Score": 13
         },
         {
           "Stat": "Dex",
-          "Score": "13"
+          "Score": 13
         }
       ],
       "Condition": "or"
     },
-    "ProfGained": "Light armor, medium armor, shields, simple weapons, martial weapons"
+    "ProfGained": {
+      "Armor": ["Light armor", "Medium armor", "Shields"], 
+      "Weapons": ["Simple weapons","Martial weapons"],
+      "Tools": [],
+      "SavingThrows": [],
+      "SkillOpts": [],
+      "NumSkillOpts": 0
+    }
   },
   "Monk": {
     "AbilityScoreMin": {
       "Stats": [
         {
           "Stat": "Dex",
-          "Score": "13"
+          "Score": 13
         },
         {
           "Stat": "Wis",
-          "Score": "13"
+          "Score": 13
         }
       ],
       "Condition": "and"
@@ -72,289 +107,331 @@
       "Stats": [
         {
           "Stat": "Str",
-          "Score": "13"
+          "Score": 13
         },
         {
           "Stat": "Cha",
-          "Score": "13"
+          "Score": 13
         }
       ],
       "Condition": "and"
     },
-    "ProfGained": "Light armor, medium armor, shields, simple weapons, martial weapons"
+    "ProfGained": {
+      "Armor": ["Light armor", "Medium armor", "Shields"], 
+      "Weapons": ["Simple weapons","Martial weapons"],
+      "Tools": [],
+      "SavingThrows": [],
+      "SkillOpts": [],
+      "NumSkillOpts": 0
+    }
   },
   "Ranger": {
     "AbilityScoreMin": {
       "Stats": [
         {
           "Stat": "Dex",
-          "Score": "13"
+          "Score": 13
         },
         {
           "Stat": "Wis",
-          "Score": "13"
+          "Score": 13
         }
       ],
       "Condition": "and"
     },
-    "ProfGained": "Light armor, medium armor, shields, simple weapons, martial weapons, one skill from the class's skill list"
+    "ProfGained": {
+      "Armor": ["Light armor", "Medium armor", "Shields"], 
+      "Weapons": ["Simple weapons","Martial weapons"],
+      "Tools": [],
+      "SavingThrows": [],
+      "SkillOpts": ["Animal Handling", "Athletics", "Insight", "Investigation", "Nature", "Perception", "Stealth", "Survival"],
+      "NumSkillOpts": 1
+    }
   },
   "Rogue": {
     "AbilityScoreMin": {
       "Stats": {
         "Stat": "Dex",
-        "Score": "13"
+        "Score": 13
       }
     },
-    "ProfGained": "Light armor, one skill from the class's skill list, thieves' tools"
+    "ProfGained": {
+      "Armor": ["Light armor"], 
+      "Weapons": [],
+      "Tools": ["Thieves' tools"],
+      "SavingThrows": [],
+      "SkillOpts": ["Acrobatics", "Athletics", "Deception", "Insight", "Intimidation", "Investigation", "Perception", "Performance", "Persuasion", "Sleight of Hand", "Stealth"],
+      "NumSkillOpts": 1
+    }
   },
   "Sorcerer": {
     "AbilityScoreMin": {
       "Stats": {
         "Stat": "Cha",
-        "Score": "13"
+        "Score": 13
       }
     },
-    "ProfGained": ""
+    "ProfGained": {
+      "Armor": [], 
+      "Weapons": [],
+      "Tools": [],
+      "SavingThrows": [],
+      "SkillOpts": [],
+      "NumSkillOpts": 0
+    }
   },
   "Warlock": {
     "AbilityScoreMin": {
       "Stats": {
         "Stat": "Cha",
-        "Score": "13"
+        "Score": 13
       }
     },
-    "ProfGained": "Light armor, simple weapons"
+    "ProfGained": {
+      "Armor": ["Light armor"], 
+      "Weapons": ["Simple weapons"],
+      "Tools": [],
+      "SavingThrows": [],
+      "SkillOpts": [],
+      "NumSkillOpts": 0
+    }
   },
   "Wizard": {
     "AbilityScoreMin": {
       "Stats": {
         "Stat": "Int",
-        "Score": "13"
+        "Score": 13
       }
     },
-    "ProfGained": ""
+    "ProfGained": {
+      "Armor": [], 
+      "Weapons": [],
+      "Tools": [],
+      "SavingThrows": [],
+      "SkillOpts": [],
+      "NumSkillOpts": 0
+    }
   },
   "SpellSlots": {
     "1": {
-      "1st": "2",
-      "2nd": "",
-      "3rd": "",
-      "4th": "",
-      "5th": "",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 2,
+      "2nd": 0,
+      "3rd": 0,
+      "4th": 0,
+      "5th": 0,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "2": {
-      "1st": "3",
-      "2nd": "",
-      "3rd": "",
-      "4th": "",
-      "5th": "",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 3,
+      "2nd": 0,
+      "3rd": 0,
+      "4th": 0,
+      "5th": 0,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "3": {
-      "1st": "4",
-      "2nd": "2",
-      "3rd": "",
-      "4th": "",
-      "5th": "",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 2,
+      "3rd": 0,
+      "4th": 0,
+      "5th": 0,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "4": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "",
-      "4th": "",
-      "5th": "",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 0,
+      "4th": 0,
+      "5th": 0,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "5": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "2",
-      "4th": "",
-      "5th": "",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 2,
+      "4th": 0,
+      "5th": 0,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "6": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "",
-      "5th": "",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 0,
+      "5th": 0,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "7": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "1",
-      "5th": "",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 1,
+      "5th": 0,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "8": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "2",
-      "5th": "",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 2,
+      "5th": 0,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "9": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "1",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 1,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "10": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "2",
-      "6th": "",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 1,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 2,
+      "6th": 0,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "11": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "2",
-      "6th": "1",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 2,
+      "6th": 1,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "12": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "2",
-      "6th": "1",
-      "7th": "",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 2,
+      "6th": 1,
+      "7th": 0,
+      "8th": 0,
+      "9th": 0
     },
     "13": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "2",
-      "6th": "1",
-      "7th": "1",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 2,
+      "6th": 1,
+      "7th": 1,
+      "8th": 0,
+      "9th": 0
     },
     "14": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "2",
-      "6th": "1",
-      "7th": "1",
-      "8th": "",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 2,
+      "6th": 1,
+      "7th": 1,
+      "8th": 0,
+      "9th": 0
     },
     "15": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "2",
-      "6th": "1",
-      "7th": "1",
-      "8th": "1",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 2,
+      "6th": 1,
+      "7th": 1,
+      "8th": 1,
+      "9th": 0
     },
     "16": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "2",
-      "6th": "1",
-      "7th": "1",
-      "8th": "1",
-      "9th": ""
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 2,
+      "6th": 1,
+      "7th": 1,
+      "8th": 1,
+      "9th": 0
     },
     "17": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "2",
-      "6th": "1",
-      "7th": "1",
-      "8th": "1",
-      "9th": "1"
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 2,
+      "6th": 1,
+      "7th": 1,
+      "8th": 1,
+      "9th": 1
     },
     "18": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "3",
-      "6th": "1",
-      "7th": "1",
-      "8th": "1",
-      "9th": "1"
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 3,
+      "6th": 1,
+      "7th": 1,
+      "8th": 1,
+      "9th": 1
     },
     "19": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "3",
-      "6th": "2",
-      "7th": "1",
-      "8th": "1",
-      "9th": "1"
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 3,
+      "6th": 2,
+      "7th": 1,
+      "8th": 1,
+      "9th": 1
     },
     "20": {
-      "1st": "4",
-      "2nd": "3",
-      "3rd": "3",
-      "4th": "3",
-      "5th": "3",
-      "6th": "2",
-      "7th": "2",
-      "8th": "1",
-      "9th": "1"
+      "1st": 4,
+      "2nd": 3,
+      "3rd": 3,
+      "4th": 3,
+      "5th": 3,
+      "6th": 2,
+      "7th": 2,
+      "8th": 1,
+      "9th": 1
     }
   }
 }
